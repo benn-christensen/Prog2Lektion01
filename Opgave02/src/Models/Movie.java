@@ -1,4 +1,4 @@
-package Opgave01.Models;
+package Models;
 
 import java.util.ArrayList;
 
