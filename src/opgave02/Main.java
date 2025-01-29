@@ -1,12 +1,13 @@
-import Models.*;
-import Storage.Storage;
+package opgave02;
+
+import opgave02.storage.Storage;
+import opgave02.models.*;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-public class Test {
+public class Main {
     public static void main(String[] args) {
         initStorage();
     }
