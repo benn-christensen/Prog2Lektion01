@@ -7,23 +7,23 @@ import Models.TVSerie;
 import java.util.ArrayList;
 
 public class Storage {
-    private ArrayList<Movie> movies = new ArrayList<>();
-    private ArrayList<TVSerie> series = new ArrayList<>();
-    private ArrayList<Actor> actors = new ArrayList<>();
+    private static ArrayList<Movie> movies = new ArrayList<>();
+    private static ArrayList<TVSerie> series = new ArrayList<>();
+    private static ArrayList<Actor> actors = new ArrayList<>();
 
-    public void addMovie(Movie movie) {
+    public static void addMovie(Movie movie) {
         if (!movies.contains(movie)) {
             movies.add(movie);
         }
     }
 
-    public void addActor(Actor actor) {
+    public static void addActor(Actor actor) {
         if (!actors.contains(actor)) {
             actors.add(actor);
         }
     }
 
-    public void addTVSerie(TVSerie serie) {
+    public static void addTVSerie(TVSerie serie) {
         if (!series.contains(serie)) {
             series.add(serie);
         }
